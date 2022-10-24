@@ -5,16 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-#ifndef FONT_NAME
-#define FONT_NAME "Source Code Pro"
-#endif
-
-#ifndef FONT_SIZE
-#define FONT_SIZE "16"
-#endif
-
 static char *font =
-    FONT_NAME ":pixelsize=" FONT_SIZE ":antialias=true:autohint=true";
+    "SauceCodePro Nerd Font:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
